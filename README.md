@@ -4,9 +4,8 @@
 ## TO-DO
 ===
 
-  - Create task for actually spinning up servers
-  	+ Make sure all Airplane-created servers are tagged
-  - Create task for deleting servers
+  - Map config variables in task so they don't have to be re-added with each deploy
+  - Make sure all Airplane-created servers are tagged
   - Make sure view task only displays Airplane-tagged servers
   - Create View that runs the view task and shows the table at all times
   - Create button in View to destroy a server
