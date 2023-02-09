@@ -11,7 +11,6 @@ def view_aws_servers():
     data = []
 
     for instance in ec2.instances.all():
-        print(instance)
         data.append({
             "ID": instance.id,
             "Amazon Machine Image (AMI)": instance.image_id,
