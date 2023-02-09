@@ -4,7 +4,6 @@ agate-dbf==0.2.2
 agate-excel==0.2.5
 agate-sql==0.5.7
 airplanesdk==0.3.17
-altgraph @ file:///System/Volumes/Data/SWE/Apps/DT/BuildRoots/BuildRoot2/ActiveBuildRoot/Library/Caches/com.apple.xbs/Sources/python3/python3-124/altgraph-0.17.2-py2.py3-none-any.whl
 Babel==2.9.1
 backoff==1.11.1
 beautifulsoup4==4.9.3
@@ -43,7 +42,6 @@ Jinja2==2.11.3
 jmespath==0.10.0
 jplephem==2.15
 leather==0.3.3
-macholib @ file:///System/Volumes/Data/SWE/Apps/DT/BuildRoots/BuildRoot2/ActiveBuildRoot/Library/Caches/com.apple.xbs/Sources/python3/python3-124/macholib-1.15.2-py2.py3-none-any.whl
 MarkupSafe==1.1.1
 mysql-connector-python-rf==2.2.2
 numpy==1.20.1
