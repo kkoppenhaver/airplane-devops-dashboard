@@ -2,10 +2,10 @@ import airplane
 
 
 @airplane.task(
-    slug="create_aws_server",
-    name="Create AWS Server",
+    slug="view_aws_servers",
+    name="View AWS Servers",
 )
-def create_aws_server():
+def view_aws_servers():
     data = [
         {"id": 1, "name": "Gabriel Davis", "role": "Dentist"},
         {"id": 2, "name": "Carolyn Garcia", "role": "Sales"},
