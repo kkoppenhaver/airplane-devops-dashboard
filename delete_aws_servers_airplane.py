@@ -11,4 +11,4 @@ def delete_aws_servers(instance_id: str):
 
     ec2.instances.filter(InstanceIds = [instance_id]).terminate()
 
-    return 'EC2 instance terminated.'
+    return 'EC2 instance is being terminated.'

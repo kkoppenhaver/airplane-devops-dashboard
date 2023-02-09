@@ -17,4 +17,4 @@ def create_aws_servers():
         KeyName="keanan-aws"
     )
     
-    return 'EC2 instance created.'
+    return 'EC2 instance is being created.'
