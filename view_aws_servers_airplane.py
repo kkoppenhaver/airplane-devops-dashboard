@@ -6,7 +6,7 @@ import boto3
     name="View AWS Servers",
 )
 def view_aws_servers():
-    ec2 = boto3.resource('ec2', 'us-east-1')
+    ec2 = boto3.resource('ec2', region_name='us-east-1')
 
     data = []
 
