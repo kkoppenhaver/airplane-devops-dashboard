@@ -1,7 +1,5 @@
 # DevOps Dashboard - Built with Airplane
 
+![A look at the DevOps dashboard with some servers running and one shut down](https://i.imgur.com/dsgTA7I.png)
 
-## TO-DO
-===
-
-  - Map config variables in task so they don't have to be re-added with each deploy
+A sample project incorporating Airplane Views, Tasks and more to allow non-technical stakeholders to create and destroy AWS EC2 instances.
