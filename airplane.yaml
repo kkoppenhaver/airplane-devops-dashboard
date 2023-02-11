@@ -1,6 +1,5 @@
 python:
   version: "3.10"
-view:
   envVars:
     AWS_ACCESS_KEY_ID:
       config: AWS_ACCESS_KEY_ID
