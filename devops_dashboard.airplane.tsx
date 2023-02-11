@@ -13,7 +13,12 @@ import airplane from "airplane";
 const DevOpsDashboard = () => {
   return (
     <Stack>
-      <Title>DevOps Dashboard</Title>
+      <Stack direction="row">
+        <Title>DevOps Dashboard</Title>
+        <Button variant="light" id="createButton" task={{ slug: "create_aws_servers" }}>
+          Create Server
+        </Button>
+      </Stack>
 
       <Table
         title="Servers"
