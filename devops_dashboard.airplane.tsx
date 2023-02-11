@@ -18,6 +18,15 @@ const DevOpsDashboard = () => {
       <Table
         title="Servers"
         task="view_aws_servers"
+        rowActions={[
+          {
+            slug: "delete_aws_servers", 
+            label: "Delete Server",
+            rowTransform: (row) => ({
+              instance_id: row.ID,
+            }),
+          }
+        ]}
       />
     </Stack>
   );
