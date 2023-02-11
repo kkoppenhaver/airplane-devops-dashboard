@@ -4,6 +4,14 @@ A sample project incorporating Airplane Views, Tasks and more to allow non-techn
 
 ![A look at the DevOps dashboard with some servers running and one shut down](https://i.imgur.com/dsgTA7I.png)
 
+## Getting Started
+
+Once you've cloned the repo for this project, you'll need a couple other things to get started:
+
+  - [An Airplane account](https://app.airplane.dev/signup). Signing up for a new account will get you a 14 day free trial of the Enterprise plan, but this project will run under the Free plan as well.
+  - [The Airplane CLI](https://docs.airplane.dev/platform/airplane-cli) downloaded and installed on your machine.
+  - [Config variables](https://app.airplane.dev/settings/config-vars) set up and populated for `AWS_ACCESS_KEY_ID`, `AWS_DEFAULT_REGION` and `AWS_SECRET_ACCESS_KEY`.
+
 ## General Architecture
 
 This project contains a view and three tasks:
